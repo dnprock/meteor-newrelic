@@ -1,10 +1,10 @@
 Package.describe({
-  summary: "meteor sql bindings for server-side calls",
-  version: "1.0.1",
+  summary: "meteor newrelic",
+  version: "1.0.2",
   git: "https://github.com/andreioprisan/meteor-newrelic.git"
 });
 
-Npm.depends({ "newrelic": "1.5.1" });
+Npm.depends({ "newrelic": "1.11.3" });
 
 Package.on_use(function(api) {
   api.versionsFrom("METEOR@0.9.0");
